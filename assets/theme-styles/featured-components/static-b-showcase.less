@@ -1,0 +1,42 @@
+#b-showcase {
+	.showcase-item {
+		padding: 10px 20px;
+		text-align: center;
+		.dots {
+			color: fade(@content, 30%);
+			.transition(0.8s all ease);
+			transform-origin: center center;
+			position: relative;
+			.fa {
+				margin: 15px 10px;
+				font-size: 10px;
+			}
+		}
+		img {
+			margin-bottom: 15px;
+			border-radius: 2px;
+			.transition(0.8s all ease);
+		}
+		.showcase-title {
+			font-weight: normal;
+			color: darken(@content, 15%);
+			font-size: 22px;
+			margin-top: 10px;
+			text-shadow: 0px 1px darken(@background, 3%);
+		}
+		.showcase-desc {
+			color: fade(@content,50%);
+			font-style: italic;
+		}
+		&:hover {
+			img {
+				filter: brightness(0.9);
+				.transform(translateY(5px));
+			}
+			.dots {
+				color: @accent;
+				.transform(scale(1.1));
+			}
+		}
+	}
+}  

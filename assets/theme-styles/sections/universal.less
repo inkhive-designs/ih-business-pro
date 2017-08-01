@@ -1,0 +1,83 @@
+body {
+	.body-font;
+	background: @background;
+	word-wrap: break-word;
+}
+.mega-container {
+	background: @background;
+	max-width: 1170px;
+	margin: auto;
+	margin-top: 20px;
+	overflow: visible;
+	clear: both;
+}
+a {
+	color: @accent;
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+		color: @accent;
+	}
+}
+.container {
+	margin: auto;
+}
+.panel {
+	background: none;
+}
+
+::selection {
+	background: @accent;
+	color: @onaccent;
+}
+
+#main {
+	overflow: visible; //May break masonry layouts
+	clear: both;
+}
+
+#content {
+	margin-top: 50px;
+	overflow: visible;
+}
+
+#primary {
+	overflow: visible;
+}
+/* section titles */	
+.section-title {
+	color: darken(@content,18%);
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 50px;
+	@media screen and (max-width: 576px) {
+			margin-bottom: 30px;
+		}
+	margin-top: 0px;
+	position: relative;
+	z-index: 3;
+	text-shadow: 1px 1px darken(@background, 6%);
+	.title-font;
+	.dots .fa {
+		border: none;
+		margin: 2px 22px;
+		color: @accent;
+		font-size: 16px;
+	}
+	span {
+		position: relative;
+		padding: 5px 8px;
+		padding-right: 15px;
+		z-index: 1;
+		display: inline-block;
+	}
+}
+
+.featured-section-area {
+	display: block;
+	float: left;
+	width: 100%;
+	border-bottom: solid 1px darken(@background, 6%);
+	padding: 35px 0;
+} 
