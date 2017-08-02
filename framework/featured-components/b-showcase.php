@@ -3,7 +3,7 @@
 *
 */
 ?>
-<?php if ( IHSS::fetch('showcase_enable') && is_front_page() /*&& !is_home() */) : ?>
+<?php if ( IHSS::fetch('showcase_enable') && is_front_page() && !is_home()) : ?>
 <div id="b-showcase" class="featured-section-area">
 	<div class="container">
 	            <?php

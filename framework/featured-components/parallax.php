@@ -1,8 +1,8 @@
-<?php if ( IHSS::fetch('parallax_enable') && is_front_page() /*&& !is_home() */) : ?>
+<?php if ( IHSS::fetch('parallax_enable') && is_front_page() && !is_home()) : ?>
 <div id="parallax" class="featured-section-area" data-parallax="scroll" data-speed="0.15" data-image-src="<?php echo IHSS::fetch('parallax_img1') ?>">
 	<div class="layer"></div>
 	<div class="container">
-				<?php $section_title = IHSS::fetch('parallax_title1');
+				<?php $section_title = esc_html(IHSS::fetch('parallax_title1'));
 					ihbp_section_title( $section_title ); ?>
 	            <?php
 	            for ( $i = 1; $i <= 1; $i++ ) :

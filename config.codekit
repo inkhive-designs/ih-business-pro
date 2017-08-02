@@ -1459,15 +1459,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/framework\/featured-components\/posts-epsilon.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/framework\/featured-components\/posts-epsilon.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/framework\/featured-components\/slider-nivo.php": {
 		"fileType": 8192,
 		"ignore": 0,

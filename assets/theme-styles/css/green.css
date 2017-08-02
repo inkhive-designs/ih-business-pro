@@ -3945,11 +3945,11 @@ p.woocommerce-shipping-contents {
   padding: 0 10px;
 }
 @media screen and (min-width: 768px) {
-  .grid_3_column:nth-child(odd) {
+  .grid_3_column:nth-of-type(odd) {
     padding-right: 10px;
     clear: none;
   }
-  .grid_3_column:nth-child(3n+1) {
+  .grid_3_column:nth-of-type(3n+1) {
     clear: left;
   }
 }

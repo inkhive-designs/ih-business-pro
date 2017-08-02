@@ -3,10 +3,10 @@
 *
 */
 ?>
-<?php if ( IHSS::fetch('counter_enable') && is_front_page() /*&& !is_home() */) : ?>
+<?php if ( IHSS::fetch('counter_enable') && is_front_page() && !is_home()) : ?>
 <div id="counters" class="featured-section-area">
 	<div class="container">
-				<?php $section_title = IHSS::fetch('counter_title');
+				<?php $section_title = esc_html(IHSS::fetch('counter_title'));
 					ihbp_section_title( $section_title ); ?>
 	            <?php
 	            for ( $i = 1; $i <= 4; $i++ ) :
