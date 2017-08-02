@@ -1459,15 +1459,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/framework\/featured-components\/slider-nivo.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/framework\/featured-components\/slider-nivo.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/framework\/featured-components\/testimonials.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1765,13 +1756,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/screenshot.png": {
-		"fileType": 32768,
+	"\/screenshot.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.37462e+06,
-		"inputAbbreviatedPath": "\/screenshot.png",
-		"outputAbbreviatedPath": "\/screenshot.png",
+		"initialSize": 220483,
+		"inputAbbreviatedPath": "\/screenshot.jpg",
+		"outputAbbreviatedPath": "\/screenshot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
