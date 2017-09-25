@@ -76,7 +76,7 @@ function ihbp_entry_footer() {
 		}
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( 'ih-business-pro', __( ' ', 'ih-business-pro' ) );
+		$tags_list = get_the_tag_list( '', __( ' ', 'ih-business-pro' ) );
 		if ( $tags_list ) {
 			printf( '<span class="tags-links">' . __( '<span class="tag-title">Tags</span> %1$s', 'ih-business-pro' ) . '</span>', $tags_list );
 		}

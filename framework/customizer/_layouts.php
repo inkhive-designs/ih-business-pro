@@ -19,19 +19,20 @@ function ihbp_customize_register_layouts( $wp_customize ) {
 	
 	$wp_customize->add_setting(
 		'ihbp_blog_layout',
-		array( 'sanitize_callback' => 'ihbp_sanitize_blog_layout' )
+		array( 'sanitize_callback' => 'ihbp_sanitize_blog_layout', 'default' => 'ihbp' )
 	);
 	
 	function ihbp_sanitize_blog_layout( $input ) {
-		if ( in_array($input, array('grid','grid_2_column','grid_3_column','ih-business-pro') ) )
+		if ( in_array($input, array('grid','grid_2_column','grid_3_column','ihbp') ) )
 			return $input;
 		else 
-			return 'ih-business-pro';	
+			return 'ihbp';	
 	}
 	
 	$wp_customize->add_control(
 		'ihbp_blog_layout',array(
 				'label' => __('Select Layout','ih-business-pro'),
+				'description' => __('This is the Layout for your Recent Posts Page, Categories & Archives Pages. The Front Page of your site would use a Separate Layout.','ih-business-pro'),
 				'settings' => 'ihbp_blog_layout',
 				'section'  => 'ihbp_design_options',
 				'type' => 'select',

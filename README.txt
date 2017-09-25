@@ -1,13 +1,13 @@
-Hanne WordPress Theme
+IH Business Pro WordPress Theme
 GNU GPL v3 (http://www.gnu.org/licenses/gpl.html)
 Copyrights 2015. Inkhive.
 http://inkhive.com/product/ih-business-pro/
 
 
-Hanne
+IH Business Pro
 =========
 
-Hanne is a very simple, high performance theme with great customization options. You can enable multiple areas to showcase your featured content. Its lightweight nature makes it very fast loading in all browsers. It comes pre-integrated with RT Slider and has a Beautiful Footer Widgets area. Check it out for more.
+IH Business pro is a very powerful and feature rich WordPress theme designed for Businesses and Corporates. With this theme you get access to tons of Social Icons, Layouts, Colors, Featured Sections and an awesome front page.
 
 Getting Started
 ---------------
@@ -95,11 +95,8 @@ All the Images used in the Screenshot are Public Domain.
 https://creativecommons.org/publicdomain/zero/1.0/
 
 List of Images
-	- https://pixabay.com/en/fruits-863072/
-	- https://pixabay.com/en/sculpture-1392529/
-	- https://pixabay.com/en/kid-1365105/
-	- https://pixabay.com/en/tulips-1477285/
-	- https://pixabay.com/en/ladybug-1480102/
-	- https://pixabay.com/en/heart-1450302/ 
+	- https://pixabay.com/en/iphone-1852901/
 
+Other Graphics or Images used in the Screenshot have been created by InkHive, specifically for the purpose of this theme and are under GPL license.
+		 
 		

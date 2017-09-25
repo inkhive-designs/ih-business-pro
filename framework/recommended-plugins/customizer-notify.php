@@ -6,10 +6,10 @@ require get_template_directory() . '/ti-customizer-notify/class-themeisle-custom
 
 $config_customizer = array(
 	'recommended_plugins'       => array(
-		'ih-slider-showcase' => array(
+		'ih-sliders-showcases' => array(
 			'recommended' => true,
 			/* translators: s - ThemeIsle Companion */
-			'description' => sprintf( esc_html__( 'If you want to take full advantage of the options this theme has to offer(like showcases, testimonials, parallax sections, etc) please install and activate %s.', 'ih-business-pro' ), sprintf( '<strong>%s</strong>', 'IH Sliders & Showcases' ) ),
+			'description' => sprintf( esc_html__( 'If you want to take full advantage of the options this theme has to offer(like showcases, testimonials, parallax sections, etc) please install and activate %s.', 'ih-business-pro' ), sprintf( '<strong>%s</strong>', 'IH Sliders & Showcases Plugin' ) ),
 		),
 	),
 	'recommended_actions'       => array(),
