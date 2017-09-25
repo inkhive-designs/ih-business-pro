@@ -99,4 +99,15 @@ List of Images
 
 Other Graphics or Images used in the Screenshot have been created by InkHive, specifically for the purpose of this theme and are under GPL license.
 		 
+		 
+Changelog
+---------
+
+Version 0.9.3
+
+	i) Minor Bug Fixes
+	ii) Made the theme more user friendly 
+	iii) Organized Customizer better
+	iv) Corrected Slug for recommended plugin
+			 
 		
