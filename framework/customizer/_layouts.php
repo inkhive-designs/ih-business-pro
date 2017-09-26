@@ -82,7 +82,7 @@ function ihbp_customize_register_layouts( $wp_customize ) {
 		    'section'  => 'ihbp_sidebar_options',
 		    'type'     => 'checkbox',
 		    'active_callback' => 'ihbp_show_sidebar_options',
-		    'default'  => true
+		    'default'  => false
 		)
 	);
 	

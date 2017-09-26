@@ -6,6 +6,9 @@
 <?php if ( IHSS::fetch('showcase_enable') && is_front_page() && !is_home()) : ?>
 <div id="b-showcase" class="featured-section-area">
 	<div class="container">
+                <?php $section_title = esc_html(IHSS::fetch('showcase_title'));
+                if ($section_title)
+                    ihbp_section_title( $section_title ); ?>
 	            <?php
 	            for ( $i = 1; $i <= 3; $i++ ) :
 	

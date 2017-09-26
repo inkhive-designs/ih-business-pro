@@ -62,7 +62,7 @@ sr.reveal('#social-icons a', { duration: 500, origin: 'top' }, 50);
 
 sr.reveal('#contact-icons .icon', { duration: 500, origin: 'top' }, 50);
 
-
+sr.reveal('#site-logo', { duration: 1500, origin: 'left' });
 sr.reveal('#text-title-desc', { duration: 1500, origin: 'left' });
 sr.reveal('#site-navigation', { duration: 1500, origin: 'right' });
 
