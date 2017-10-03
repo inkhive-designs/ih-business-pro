@@ -110,4 +110,8 @@ Version 0.9.3
 	iii) Organized Customizer better
 	iv) Corrected Slug for recommended plugin
 			 
+Version 0.9.4
+
+	i) Errors Reported by NS Theme Check Fixed.
+	ii) Other Minor Bug Fixes.			 
 		
