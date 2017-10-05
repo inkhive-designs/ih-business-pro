@@ -9,12 +9,36 @@ function ihbp_customize_register_frontpage( $wp_customize ) {
 	
 	$wp_customize->get_section('static_front_page')->title = __('Enable Front Page','ih-business-pro');
 	$wp_customize->get_section('static_front_page')->panel = 'ihbp_front_panel';
-	
+
+	$wp_customize->add_section(
+	    'ihbp_sec_fp_basic_settings',
+        array(
+            'title' => __('Basic Settings', 'ih-business-pro'),
+            'priority' => 1,
+            'panel' => 'ihbp_front_panel'
+        )
+    );
+
+    $wp_customize->add_setting(
+	    'ihbp_fp_basic_settings_blog_set',
+        array( 'sanitize_callback' => 'ihbp_sanitize_checkbox' )
+    );
+
+    $wp_customize->add_control(
+	    'ihbp_fp_basic_settings_blog_set',
+	    array(
+            'label' => __('Disable showing "From The Blog" section on front page', 'ih-business-pro'),
+            'setting' => 'ihbp_fp_basic_settings_blog_set',
+            'section' => 'ihbp_sec_fp_basic_settings',
+            'type' => 'checkbox'
+        )
+    );
+
 	$wp_customize->add_section(
 	    'ihbp_sec_fp_info',
 	    array(
 	        'title'     => __('Usage Instructions','ih-business-pro'),
-	        'priority'  => 1,
+	        'priority'  => 3,
 	        'panel' => 'ihbp_front_panel'
 	    )
 	);

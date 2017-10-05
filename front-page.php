@@ -10,6 +10,7 @@
 
 get_header(); ?>
 
+<?php if( !get_theme_mod('ihbp_fp_basic_settings_blog_set', true)) : ?>
 <div id="latest-blog" class="featured-section-area">
 	<div class="section-title"><span><?php _e("From the Blog", 'ih-business-pro'); ?></span></div>
 	<?php
@@ -36,5 +37,5 @@ get_header(); ?>
 			</article><!-- #post-## -->
 			<?php endforeach; wp_reset_postdata(); ?>
 </div>
-
+<?php endif; ?>
 <?php get_footer(); ?>
