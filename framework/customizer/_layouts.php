@@ -23,7 +23,7 @@ function ihbp_customize_register_layouts( $wp_customize ) {
 	);
 	
 	function ihbp_sanitize_blog_layout( $input ) {
-		if ( in_array($input, array('grid','grid_2_column','grid_3_column','ihbp') ) )
+		if ( in_array($input, array('ihbp','grid','grid_2_column','grid_3_column') ) )
 			return $input;
 		else 
 			return 'ihbp';	
