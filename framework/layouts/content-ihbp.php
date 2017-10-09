@@ -28,6 +28,6 @@ $category_name = $category->name;
 			<a class="cat-link" href="<?php echo $category_link ?>"><?php echo $category_name ?></a>
 			<header class="entry-header">
 					<h2 class="entry-title title-font"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-				</header><!-- .entry-header -->
+            </header><!-- .entry-header -->
 		</div>
 </article><!-- #post-## -->

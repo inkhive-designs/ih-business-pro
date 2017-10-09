@@ -49,7 +49,7 @@ function ihbp_customize_register_frontpage( $wp_customize ) {
 		);
 			
 	$wp_customize->add_control(
-	    new Hanne_WP_Customize_Upgrade_Control(
+	    new ihbp_WP_Customize_Upgrade_Control(
 	        $wp_customize,
 	        'ihbp_fp_info',
 	        array(

@@ -10,7 +10,7 @@ class ihbp_Recent_Posts extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'ihbp_rp', // Base ID
-			__('Hanne Recent Posts with Thumbnails', 'ih-business-pro'), // Name
+			__('Ih Business Pro Recent Posts with Thumbnails', 'ih-business-pro'), // Name
 			array( 'description' => __( 'Display your recent posts, with a Thumbnail.', 'ih-business-pro' ), ) // Args
 		);
 	}
@@ -109,8 +109,6 @@ class ihbp_Recent_Posts extends WP_Widget {
 			$instance['no_of_posts'] = $old_instance['no_of_posts'];
 			}
 		return $instance;
-		
-		
 	}
 }
 add_action( 'widgets_init', 'ihbp_register_widget' );  

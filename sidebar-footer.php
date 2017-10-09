@@ -9,8 +9,7 @@
 	 <div id="footer-sidebar" class="widget-area">
 	
 		<div id="footer-bar" class="container">
-			 
-			<?php //if ( get_theme_mod('ihbp_social_loc') == 'headfoot' || get_theme_mod('ihbp_social_loc') == 'all') : ?>
+
 			<div id="footer-social">
 			   <?php get_template_part('modules/social/social', 'fafooter');?> 
 			</div>

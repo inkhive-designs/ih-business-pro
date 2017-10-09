@@ -93,7 +93,7 @@ function ihbp_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'ihbp_excerpt_length', 999 );
 
 function ihbp_excerpt_more( $more ) {
-	return '...';
+	return '&hellip;';
 }
 add_filter( 'excerpt_more', 'ihbp_excerpt_more' );
 

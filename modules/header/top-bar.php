@@ -1,10 +1,10 @@
 <div id="top-bar">
 	<div class="container top-bar-inner">
 		<div id="contact-icons">
-			<?php if (get_theme_mod('ihbp_mailid')) : ?>
+			<?php if (get_theme_mod('ihbp_mail_id')) : ?>
 			<div class="icon">
 				<span class="fa fa-envelope"></span>
-				<span class="value"><?php echo get_theme_mod('ihbp_mailid'); ?></span>
+				<span class="value"><?php echo get_theme_mod('ihbp_mail_id'); ?></span>
 			</div>
 			<?php endif; ?>
 			<?php if (get_theme_mod('ihbp_phone')) : ?>
