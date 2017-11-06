@@ -4,7 +4,7 @@
 ** Walkers for Navigation menus
 */ 
 //Supports Menu Desc and Icons Both 
-class Ih_Business_Pro_Menu_With_Description extends Walker_Nav_Menu {
+class IHBP_Menu_With_Description extends Walker_Nav_Menu {
 	function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
 		global $wp_query;
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
@@ -34,7 +34,7 @@ class Ih_Business_Pro_Menu_With_Description extends Walker_Nav_Menu {
 	}
 }
 //Supports Icon only. No Description.
-class Ih_Business_Pro_Menu_With_Icon extends Walker_Nav_Menu {
+class IHBP_Menu_With_Icon extends Walker_Nav_Menu {
 	function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
 		global $wp_query;
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';

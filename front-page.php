@@ -9,8 +9,22 @@
  */
 
 get_header(); ?>
+<?php if ( is_front_page() && is_home() ) : ?>
+<div id="latest-blog" class="featured-section-area">
+	<div class="section-title"><span><?php _e("Latest Posts", 'ih-business-pro'); ?></span></div>
+	<?php if ( have_posts() ) : ?>
+			<?php /* Start the Loop */ ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php do_action('ihbp_blog_layout'); 	?>
+			<?php endwhile; ?>
+		<?php else : ?>
+			<?php get_template_part( 'content', 'none' ); ?>
+		<?php endif; ?>
+		</main><!-- #main -->
+		<?php if ( have_posts() ) { the_posts_pagination(array( 'mid_size' => 2 )); } ?>
+</div>
 
-<?php if( !get_theme_mod('ihbp_fp_basic_settings_blog_set', true)) : ?>
+<?php elseif ( !get_theme_mod('ihbp_fp_basic_settings_blog_set', true)) : ?>
 <div id="latest-blog" class="featured-section-area">
 	<div class="section-title"><span><?php _e("From the Blog", 'ih-business-pro'); ?></span></div>
 	<?php

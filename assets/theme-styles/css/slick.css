@@ -281,6 +281,11 @@ a:hover {
     float: none;
   }
 }
+#site-logo img {
+  max-height: 120px;
+  width: auto;
+  margin-right: 10px;
+}
 #hero {
   min-height: 500px;
   position: relative;
@@ -532,7 +537,6 @@ a:hover {
     float: none;
     text-align: center;
     width: 100%;
-    display: none;
   }
   #site-navigation .td_mobile_menu_wrap {
     min-height: 42px;
