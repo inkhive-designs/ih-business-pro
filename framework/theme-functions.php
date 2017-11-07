@@ -132,4 +132,6 @@ add_action('ihbp_masonry_class', 'ihbp_set_masonry_class');
 
 require get_template_directory() . '/framework/widgets/recent-posts.php';
 
+require get_template_directory() . '/framework/recommended-plugins/customizer-notify.php';
+
 

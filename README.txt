@@ -103,18 +103,20 @@ Other Graphics or Images used in the Screenshot have been created by InkHive, sp
 Changelog
 ---------
 
-Version 0.9.3
+Version 1.0.0
 
-	i) Minor Bug Fixes
-	ii) Made the theme more user friendly 
-	iii) Organized Customizer better
-	iv) Corrected Slug for recommended plugin
-			 
-Version 0.9.4
-
-	i) Errors Reported by NS Theme Check Fixed.
+	i) Recommended Plugins Notifaction Issue Fixed.
 	ii) Other Minor Bug Fixes.
-	
+
+Version 0.9.9
+
+	i) Fixed issues with Static front page and blog settings
+
+Version 0.9.8
+
+	i) Removed Commented out Code.
+	ii) Deleted empty file.
+
 Version 0.9.7
 
 	i) 	Minor Bug Fixes.
@@ -122,12 +124,20 @@ Version 0.9.7
 	iii) Removed Commented code and unused files.
 	iv) Switch from Pixabay to Pexels.
 	v) Removed Support for Post Formats.
-	
-Version 0.9.8
 
-	i) Removed Commented out Code.
-	ii) Deleted empty file.
-	
-Version 0.9.9
+Version 0.9.4
 
-	i) Fixed issues with Static front page and blog settings		
+	i) Errors Reported by NS Theme Check Fixed.
+	ii) Other Minor Bug Fixes.
+
+Version 0.9.3
+
+	i) Minor Bug Fixes
+	ii) Made the theme more user friendly 
+	iii) Organized Customizer better
+	iv) Corrected Slug for recommended plugin
+			 
+
+
+	
+
