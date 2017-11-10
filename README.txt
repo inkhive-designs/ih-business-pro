@@ -103,10 +103,15 @@ Other Graphics or Images used in the Screenshot have been created by InkHive, sp
 Changelog
 ---------
 
+Version 1.0.1
+
+    i) Front Page Content Issue Fixed
+
 Version 1.0.0
 
 	i) Recommended Plugins Notifaction Issue Fixed.
 	ii) Other Minor Bug Fixes.
+
 
 Version 0.9.9
 

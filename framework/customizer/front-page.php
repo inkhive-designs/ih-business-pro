@@ -34,6 +34,22 @@ function ihbp_customize_register_frontpage( $wp_customize ) {
         )
     );
 
+    //Front Page Content
+    $wp_customize->add_setting(
+        'ihbp_fp_content_set',
+        array( 'sanitize_callback' => 'ihbp_sanitize_checkbox' )
+    );
+
+    $wp_customize->add_control(
+        'ihbp_fp_content_set',
+        array(
+            'label' => __('Disable showing Front Page Content section on front page', 'ih-business-pro'),
+            'setting' => 'ihbp_fp_content_set',
+            'section' => 'ihbp_sec_fp_basic_settings',
+            'type' => 'checkbox'
+        )
+    );
+
 	$wp_customize->add_section(
 	    'ihbp_sec_fp_info',
 	    array(
