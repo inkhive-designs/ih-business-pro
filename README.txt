@@ -102,6 +102,10 @@ Other Graphics or Images used in the Screenshot have been created by InkHive, sp
 		 
 Changelog
 ---------
+Version 1.0.3
+
+    i) Mobile Menu bug fixed.
+
 Version 1.0.2
 
     i) Footer Menu bug fixed on mobile screen.
