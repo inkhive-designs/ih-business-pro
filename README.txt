@@ -102,6 +102,16 @@ Other Graphics or Images used in the Screenshot have been created by InkHive, sp
 		 
 Changelog
 ---------
+
+Version: 1.0.5
+
+    i) Support For LinkedIn Social Icon Added
+    ii) Minor Bug Fixes
+
+Version: 1.0.4
+
+    i) Menu and site title and description bug fixed.
+  
 Version 1.0.3
 
     i) Mobile Menu bug fixed.

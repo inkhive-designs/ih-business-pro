@@ -18,7 +18,8 @@ function ihbp_customize_register_social( $wp_customize ) {
 					'vimeo-square' => __('Vimeo','ih-business-pro'),
 					'youtube' => __('Youtube','ih-business-pro'),
 					'flickr' => __('Flickr','ih-business-pro'),
-				);
+                    'linkedin' => __('Linked In','ih-business-pro'),
+    );
 				
 	$social_count = count($social_networks);
 				
@@ -64,7 +65,8 @@ function ihbp_customize_register_social( $wp_customize ) {
 					'vine',
 					'vimeo-square',
 					'youtube',
-					'flickr'
+					'flickr',
+                    'linkedin'
 				);
 		if ( in_array($input, $social_networks) )
 			return $input;
