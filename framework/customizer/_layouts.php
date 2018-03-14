@@ -69,39 +69,39 @@ function ihbp_customize_register_layouts( $wp_customize ) {
 		    'default'  => false
 		)
 	);
-	
+
 	$wp_customize->add_setting(
-		'ihbp_disable_sidebar_home',
+		'ihbp_disable_sidebar_posts',
 		array( 'sanitize_callback' => 'ihbp_sanitize_checkbox' )
 	);
-	
+
 	$wp_customize->add_control(
-			'ihbp_disable_sidebar_home', array(
-		    'settings' => 'ihbp_disable_sidebar_home',
-		    'label'    => __( 'Disable Sidebar on Home/Blog.','ih-business-pro' ),
+			'ihbp_disable_sidebar_posts', array(
+		    'settings' => 'ihbp_disable_sidebar_posts',
+		    'label'    => __( 'Disable Sidebar on Posts.','ih-business-pro' ),
 		    'section'  => 'ihbp_sidebar_options',
 		    'type'     => 'checkbox',
 		    'active_callback' => 'ihbp_show_sidebar_options',
 		    'default'  => false
 		)
 	);
-	
+
 	$wp_customize->add_setting(
-		'ihbp_disable_sidebar_front',
+		'ihbp_disable_sidebar_pages',
 		array( 'sanitize_callback' => 'ihbp_sanitize_checkbox' )
 	);
-	
+
 	$wp_customize->add_control(
-			'ihbp_disable_sidebar_front', array(
-		    'settings' => 'ihbp_disable_sidebar_front',
-		    'label'    => __( 'Disable Sidebar on Front Page.','ih-business-pro' ),
+			'ihbp_disable_sidebar_pages', array(
+		    'settings' => 'ihbp_disable_sidebar_pages',
+		    'label'    => __( 'Disable Sidebar on Pages.','ih-business-pro' ),
 		    'section'  => 'ihbp_sidebar_options',
 		    'type'     => 'checkbox',
 		    'active_callback' => 'ihbp_show_sidebar_options',
 		    'default'  => false
 		)
 	);
-	
+
 	
 	$wp_customize->add_setting(
 		'ihbp_sidebar_width',

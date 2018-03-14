@@ -94,6 +94,11 @@
 .grid_2_column {
 	padding: 0;
 	border-bottom: none;
+	.featured-thumb {
+		img {
+			width: 100%;
+		}
+	}
 	.out-thumb {
 		padding: 12px 0;
 		
@@ -122,22 +127,6 @@
 			clear: none;
 		}
 		&:nth-of-type(3n+1) {
-			clear: left;
-		}
-	}
-}
-.grid_4_column {
-	@media screen and (min-width: 768px) {
-		&:nth-of-type(odd) {	
-			padding-right: 10px;
-			clear: none;
-		}
-		&:nth-of-type(3n+1) {
-			clear: none;
-		}
-	}
-	@media screen and (max-width: 991px) {
-		&:nth-of-type(odd) { 
 			clear: left;
 		}
 	}

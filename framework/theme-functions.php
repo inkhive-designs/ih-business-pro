@@ -21,9 +21,9 @@ function ihbp_load_sidebar() {
 	$load_sidebar = true;
 	if ( get_theme_mod('ihbp_disable_sidebar') ) :
 		$load_sidebar = false;
-	elseif( get_theme_mod('ihbp_disable_sidebar_home',true) && is_home() )	:
+	elseif( get_theme_mod('ihbp_disable_sidebar_posts',true) && is_single() )	:
 		$load_sidebar = false;
-	elseif( get_theme_mod('ihbp_disable_sidebar_front',true) && is_front_page() ) :
+	elseif( get_theme_mod('ihbp_disable_sidebar_pages',true) && is_page() ) :
 		$load_sidebar = false;
 	endif;
 	

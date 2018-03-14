@@ -1,5 +1,5 @@
 <?php if (is_front_page() ) : ?>
-<div id="hero" data-parallax="scroll" data-speed="0.15" data-image-src="<?php echo get_header_image() ?>">
+<div id="hero" data-parallax="scroll" data-speed="0.15" data-image-src="<?php echo get_header_image(); ?>">
 	<div class="layer"></div>
 	<div class="hero-content">
 		<div class="container">

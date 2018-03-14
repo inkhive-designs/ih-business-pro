@@ -31,6 +31,14 @@ function ihbp_custom_header_setup() {
 		'flex-height'            => true,
 		'wp-head-callback'       => 'ihbp_header_style',
 	) ) );
+    register_default_headers( array(
+            'default-image'    => array(
+                'url'            => '%s/assets/images/header.jpg',
+                'thumbnail_url'    => '%s/assets/images/header.jpg',
+                'description'    => __('Default Header Image', 'ih-business-pro')
+            )
+        )
+    );
 }
 add_action( 'after_setup_theme', 'ihbp_custom_header_setup' );
 

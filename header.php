@@ -23,13 +23,11 @@ get_template_part('modules/header/head'); ?>
 	<?php get_template_part('framework/featured-components/parallax' ); ?>
 	<?php get_template_part('framework/featured-components/counters' ); ?>
 	<?php endif; ?>
-	
-	<?php if( class_exists('rt_slider') ) {
-			 rt_slider::render('slider', 'nivo' ); 
-		} ?>
 
-	<?php get_template_part('featured', 'posts' ); ?>
-	
+    <?php if( class_exists('rt_slider') ) {
+        rt_slider::render('framework/featured-components/slider', 'nivo' );
+    } ?>
+
 	<?php do_action('ihbp-after-header'); ?>
 	
 	<div class="mega-container">
