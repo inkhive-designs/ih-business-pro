@@ -130,3 +130,7 @@ Source: https://www.pexels.com/photo-license/
 ### 1.0.6
 
 * Bugs Fixed
+
+### 1.0.7
+
+* Google Font minor bug fixed.

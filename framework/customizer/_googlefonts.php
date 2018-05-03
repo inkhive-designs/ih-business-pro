@@ -9,19 +9,19 @@ function ihbp_customize_register_fonts( $wp_customize ) {
 	    )
 	);
 	
-	$font_array = array('HIND','Khula','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo','Lora','Source Sans Pro','Arimo','Bitter','Noto Sans');
+	$font_array = array('Ovo','Quattrocento Sans','HIND','Khula','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo','Lora','Source Sans Pro','Arimo','Bitter','Noto Sans');
 	$fonts = array_combine($font_array, $font_array);
 	
 	$wp_customize->add_setting(
 		'ihbp_title_font',
 		array(
-			'default'=> 'HIND',
+			'default'=> 'Ovo',
 			'sanitize_callback' => 'ihbp_sanitize_gfont' 
 			)
 	);
 	
 	function ihbp_sanitize_gfont( $input ) {
-		if ( in_array($input, array('HIND','Khula','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo','Lora','Source Sans Pro','Arimo','Bitter','Noto Sans') ) )
+		if ( in_array($input, array('Ovo','Quattrocento Sans','HIND','Khula','Open Sans','Droid Sans','Droid Serif','Roboto','Roboto Condensed','Lato','Bree Serif','Oswald','Slabo','Lora','Source Sans Pro','Arimo','Bitter','Noto Sans') ) )
 			return $input;
 		else
 			return 'ih-business-pro';	
@@ -39,7 +39,7 @@ function ihbp_customize_register_fonts( $wp_customize ) {
 	
 	$wp_customize->add_setting(
 		'ihbp_body_font',
-			array(	'default'=> 'Open Sans',
+			array(	'default'=> 'Quattrocento Sans',
 					'sanitize_callback' => 'ihbp_sanitize_gfont' )
 	);
 	

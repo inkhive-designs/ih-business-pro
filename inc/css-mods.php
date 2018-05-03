@@ -41,11 +41,11 @@ function ihbp_custom_css_mods() {
 	}
 	
 	if ( get_theme_mod('ihbp_title_font','Ovo') ) :
-		$custom_css .= ".title-font, h1, h2 { font-family: ".esc_html(get_theme_mod('ihbp_title_font'))."; }";
+		$custom_css .= ".title-font, h1, h2 { font-family: ".esc_html(get_theme_mod('ihbp_title_font','Ovo'))."; }";
 	endif;
 	
 	if ( get_theme_mod('ihbp_body_font','Quattrocento Pro') ) :
-		$custom_css .= "body { font-family: ".esc_html(get_theme_mod('ihbp_body_font'))."; }";
+		$custom_css .= "body { font-family: ".esc_html(get_theme_mod('ihbp_body_font','Quattrocento Pro'))."; }";
 	endif;
 	
 	if ( get_header_textcolor() ) :
