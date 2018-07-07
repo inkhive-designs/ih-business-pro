@@ -7,7 +7,8 @@ function ihbp_customize_register_header_mail( $wp_customize ) {
 	));
 	
 	$wp_customize->add_setting( 'ihbp_mail_id' , array(
-	    'sanitize_callback' => 'sanitize_text_field'
+	    'sanitize_callback' => 'sanitize_text_field',
+        'transport' => 'postMessage',
 	) );
 	
 	$wp_customize->add_control(
@@ -19,7 +20,8 @@ function ihbp_customize_register_header_mail( $wp_customize ) {
 	) );
 	
 	$wp_customize->add_setting( 'ihbp_phone' , array(
-	    'sanitize_callback' => 'sanitize_text_field'
+	    'sanitize_callback' => 'sanitize_text_field',
+        'transport' => 'postMessage',
 	) );
 	
 	$wp_customize->add_control(

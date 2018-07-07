@@ -3,7 +3,7 @@
 **Contributors:** (inkhive)  
 **Requires at least:** WordPress 4.4  
 **Tested up to:** WordPress 4.9
-**Version:** 1.0.6
+**Version:** 1.1.0
 **License:** GPL v3  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
 **Tags:** custom-background, two-columns, one-column, custom-colors, flexible-header, theme-options, right-sidebar, grid-layout, custom-menu, threaded-comments, translation-ready, featured-images, blog, full-width-template, e-commerce, footer-widgets, entertainment, photography, featured-image-header
@@ -122,15 +122,22 @@ Source: https://www.pexels.com/photo-license/
 
 * Menu and site title and description bug fixed.
 
-### 1.0.5
+### Version 1.0.5
 
 * Support For LinkedIn Social Icon Added
 * Minor Bug Fixes
 	
-### 1.0.6
+### Version 1.0.6
 
 * Bugs Fixed
 
-### 1.0.7
+### Version 1.0.7
 
 * Google Font minor bug fixed.
+
+### Version 1.1.0
+
+* New Hero Section(About Us) Added
+* Customizer Upgraded
+* Header Text Feature Improved
+* Removable Support Added For Footer Credit Line 

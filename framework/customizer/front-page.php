@@ -21,7 +21,10 @@ function ihbp_customize_register_frontpage( $wp_customize ) {
 
     $wp_customize->add_setting(
 	    'ihbp_fp_basic_settings_blog_set',
-        array( 'sanitize_callback' => 'ihbp_sanitize_checkbox' )
+        array(
+            'sanitize_callback' => 'ihbp_sanitize_checkbox',
+            'transport'  => 'postMessage',
+        )
     );
 
     $wp_customize->add_control(
@@ -37,7 +40,10 @@ function ihbp_customize_register_frontpage( $wp_customize ) {
     //Front Page Content
     $wp_customize->add_setting(
         'ihbp_fp_content_set',
-        array( 'sanitize_callback' => 'ihbp_sanitize_checkbox' )
+        array(
+            'sanitize_callback' => 'ihbp_sanitize_checkbox',
+            'transport' => 'postMessage'
+        )
     );
 
     $wp_customize->add_control(

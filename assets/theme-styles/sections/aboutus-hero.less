@@ -1,0 +1,70 @@
+#aboutus-hero {
+  padding:40px;
+  background-attachment:fixed;
+  margin-top: 0;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: auto;
+  @media screen and (max-width:767px){
+      margin-bottom:30px;
+  }
+  .hero-container {
+    padding: 0;
+  }
+  .h-content{
+    h1.title{
+      margin:0;
+    }
+    .excerpt {
+      margin: 20px 0;
+      font-size: 17.5px;
+    }
+    .button {
+      display:inline-block;
+      .more-button{
+        display: inline-block;
+        margin: 3px 0px;
+        background: linear-gradient(to top, darken(@accent, 10%) 0%, @accent 100%);
+        color: @onaccent;
+        text-shadow: 1px 1px darken(@content, 1%);
+        padding: 7px 21px;
+        border-radius: 8px;
+        border-top: solid 1px fade(@onaccent, 50%);
+      }
+    }
+    .ihbpp-bar {
+      width: 80%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      h3 {
+        display: inline-block;
+        font-size: 16px;
+      }
+      h3.title {
+        font-weight: 600;
+      }
+      h3.percentage {
+        float: right;
+      }
+      .progress {
+        margin-bottom: 0;
+        .progress-bar {
+          background: @accent;
+        }
+      }
+    }
+  }
+  .htop-f-image{
+    @media screen and (max-width: 768px) {
+      margin-top: 20px;
+    }
+    img {
+      outline: solid 7px fade(white, 20%);
+      border: solid 2px fade(@accent,20%);
+      @media screen and (max-width: 767px) {
+        margin-top: 20px;
+      }
+    }
+  }
+}

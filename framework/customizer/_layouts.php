@@ -143,19 +143,38 @@ function ihbp_customize_register_layouts( $wp_customize ) {
 	$wp_customize-> add_section(
     'ihbp_custom_footer',
     array(
-    	'title'			=> __('Custom Footer Text','ih-business-pro'),
-    	'description'	=> __('Enter your Own Copyright Text.','ih-business-pro'),
+    	'title'			=> __('Footer Settings','ih-business-pro'),
     	'priority'		=> 11,
     	'panel'			=> 'ihbp_design_panel'
     	)
     );
-    
+
+    $wp_customize->add_setting(
+        'ihbp_disbale_fcredit_line',
+        array(
+            'sanitize_callback' => 'ihbp_sanitize_checkbox',
+            'transport' => 'postMessage'
+        )
+    );
+
+    $wp_customize->add_control(
+        'ihbp_disbale_fcredit_line',
+        array(
+            'section' => 'ihbp_custom_footer',
+            'settings' => 'ihbp_disbale_fcredit_line',
+            'label' => __('Disable', 'ih-business-pro'),
+            'description' => __('Check to disbale the default footer credit line'),
+            'type' => 'checkbox',
+        )
+    );
+
 	$wp_customize->add_setting(
 	'ihbp_footer_text',
 	array(
 		'default'		=> 'ih-business-pro',
-		'sanitize_callback'	=> 'sanitize_text_field'
-		)
+		'sanitize_callback'	=> 'sanitize_text_field',
+        'transport' => 'postMessage'
+    )
 	);
 	
 	$wp_customize->add_control(	 
@@ -163,7 +182,9 @@ function ihbp_customize_register_layouts( $wp_customize ) {
 	        array(
 	            'section' => 'ihbp_custom_footer',
 	            'settings' => 'ihbp_footer_text',
-	            'type' => 'text'
+                'label' => __('Footer Copyright Text', 'ih-business-pro'),
+                'description'	=> __('Enter your Own Copyright Text.','ih-business-pro'),
+                'type' => 'text'
 	        )
 	);
 }

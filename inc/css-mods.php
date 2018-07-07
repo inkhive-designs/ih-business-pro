@@ -71,6 +71,27 @@ function ihbp_custom_css_mods() {
 		$custom_css .= "#masthead #site-logo img { transform: scale(".$val."); -webkit-transform: scale(".$val."); -moz-transform: scale(".$val."); -ms-transform: scale(".$val."); }";
 		endif;
 
+    if (get_theme_mod('ihbp_aboutus_hero_background_image')) :
+        $image1 = get_theme_mod('ihbp_aboutus_hero_background_image');
+        $custom_css .= "#aboutus-hero {
+                    background-image: url('" . $image1 . "');
+                    background-size: cover;
+                }";
+    else:
+        $custom_css .= "#aboutus-hero { background: #efefef; }";
+    endif;
+
+    if (get_theme_mod('ihbp_aboutus_hero_background_image')):
+        $custom_css .= "#aboutus-hero .h-content .excerpt, #aboutus-hero .h-content h1.title {
+                    color: white;
+                }";
+    else:
+        $custom_css .= "#aboutus-hero .h-content .excerpt, #aboutus-hero .h-content h1.title {
+                    color: black;
+                } ";
+
+    endif;	
+		
 	wp_add_inline_style( '-main-theme-style', wp_strip_all_tags($custom_css) );
 	
 }

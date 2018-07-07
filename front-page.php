@@ -11,7 +11,7 @@
 get_header(); ?>
 <?php if ( is_front_page() && is_home() ) : ?>
     <div id="latest-blog" class="featured-section-area">
-        <div class="section-title"><span><?php _e("Latest Posts", 'ih-business-pro'); ?></span></div>
+        <div class="section-title"><span class="latestblog-title"><?php _e("Latest Posts", 'ih-business-pro'); ?></span></div>
         <?php if ( have_posts() ) : ?>
             <?php /* Start the Loop */ ?>
             <?php while ( have_posts() ) : the_post(); ?>
@@ -27,7 +27,7 @@ get_header(); ?>
 
 <?php if ( is_front_page() && !is_home() && !get_theme_mod('ihbp_fp_basic_settings_blog_set', true)) : ?>
     <div id="latest-blog" class="featured-section-area">
-        <div class="section-title"><span><?php _e("From the Blog", 'ih-business-pro'); ?></span></div>
+        <div class="section-title"><span class="fromblog-title"><?php _e("From the Blog", 'ih-business-pro'); ?></span></div>
         <?php
         $args = array( 'posts_per_page' =>  3 );
         $lastposts = get_posts( $args );
@@ -55,8 +55,8 @@ get_header(); ?>
 <?php endif; ?>
 
 <?php if ( is_front_page() && !is_home() && !get_theme_mod('ihbp_fp_content_set', true)) : ?>
-    <div id="latest-blog" class="featured-section-area">
-        <div class="section-title"><span><?php the_title(); ?></span></div>
+    <div id="frontpage-content" class="featured-section-area">
+        <div class="section-title"><span class="frontpage-title"><?php the_title(); ?></span></div>
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <div class="entry-content">
                 <?php

@@ -1,6 +1,7 @@
 <?php if (is_front_page() ) : ?>
 <div id="hero" data-parallax="scroll" data-speed="0.15" data-image-src="<?php echo get_header_image(); ?>">
 	<div class="layer"></div>
+    <?php if(get_theme_mod('ihbp_hero_text_enable')): ?>
 	<div class="hero-content">
 		<div class="container">
 			<?php if (get_theme_mod('ihbp_heading')) : ?>
@@ -13,6 +14,7 @@
 			<?php endif; ?>
 			
 		</div>
-	</div>	
+	</div>
+    <?php endif; ?>
 </div>
 <?php endif; ?>

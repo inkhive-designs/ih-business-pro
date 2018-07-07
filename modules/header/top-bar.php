@@ -4,13 +4,13 @@
 			<?php if (get_theme_mod('ihbp_mail_id')) : ?>
 			<div class="icon">
 				<span class="fa fa-envelope"></span>
-				<span class="value"><?php echo esc_html( get_theme_mod('ihbp_mail_id') ); ?></span>
+				<span class="value email"><?php echo esc_html( get_theme_mod('ihbp_mail_id') ); ?></span>
 			</div>
 			<?php endif; ?>
 			<?php if (get_theme_mod('ihbp_phone')) : ?>
 			<div class="icon">
 				<span class="fa fa-phone"></span>
-				<span class="value"><?php echo esc_html( get_theme_mod('ihbp_phone') ); ?></span>
+				<span class="value phone"><?php echo esc_html( get_theme_mod('ihbp_phone') ); ?></span>
 			</div>
 			<?php endif; ?>
 		</div>

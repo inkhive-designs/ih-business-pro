@@ -5,9 +5,12 @@ function ihbp_customize_register_skins( $wp_customize ) {
 	$wp_customize->get_section('custom_css')->panel = "ihbp_design_panel";
 	//Replace Header Text Color with, separate colors for Title and Description
 	$wp_customize->get_control('header_textcolor')->label = __('Site Title Color','ih-business-pro');
+	$wp_customize->get_control('header_textcolor')->transport = 'postMessage';
+	$wp_customize->get_control('background_color')->transport = 'postMessage';
 	$wp_customize->add_setting('ihbp_header_desccolor', array(
 	    'default'     => '#000',
 	    'sanitize_callback' => 'sanitize_hex_color',
+        'transport' => 'postMessage'
 	));
 	
 	$wp_customize->add_control(new WP_Customize_Color_Control( 

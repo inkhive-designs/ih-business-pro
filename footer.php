@@ -14,9 +14,12 @@
 
 	<footer id="colophon" class="site-footer title-font" role="contentinfo">
 		<div class="site-info container">
-			<?php printf( __( 'Theme Designed by %1$s.', 'ih-business-pro' ), '<a href="'.esc_url("http://inkhive.com/").'" rel="nofollow">InkHive</a>' ); ?>
-			<span class="sep"></span>
-			<?php echo ( get_theme_mod('ihbp_footer_text') == 'ih-business-pro' ) ? ('&copy; '.date_i18n( __( 'Y', 'ih-business-pro' ) ).' '.get_bloginfo('name').__('. All Rights Reserved. ','ih-business-pro')) : esc_html(get_theme_mod('ihbp_footer_text')); ?>
+            <span class="credit">
+			    <?php printf( __( 'Theme Designed by %1$s.', 'ih-business-pro' ), '<a href="'.esc_url("http://inkhive.com/").'" rel="nofollow">InkHive</a>' ); ?>
+            </span>
+			<span class="sep">
+                <?php echo ( get_theme_mod('ihbp_footer_text') == 'ih-business-pro' ) ? ('&copy; '.date_i18n( __( 'Y', 'ih-business-pro' ) ).' '.get_bloginfo('name').__('. All Rights Reserved. ','ih-business-pro')) : esc_html(get_theme_mod('ihbp_footer_text')); ?>
+            </span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 	
