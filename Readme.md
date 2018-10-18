@@ -3,7 +3,7 @@
 **Contributors:** (inkhive)  
 **Requires at least:** WordPress 4.4  
 **Tested up to:** WordPress 4.9
-**Version:** 1.1.0
+**Version:** 1.1.1
 **License:** GPL v3  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
 **Tags:** custom-background, two-columns, one-column, custom-colors, flexible-header, theme-options, right-sidebar, grid-layout, custom-menu, threaded-comments, translation-ready, featured-images, blog, full-width-template, e-commerce, footer-widgets, entertainment, photography, featured-image-header
@@ -141,3 +141,11 @@ Source: https://www.pexels.com/photo-license/
 * Customizer Upgraded
 * Header Text Feature Improved
 * Removable Support Added For Footer Credit Line 
+
+### Version 1.1.1
+
+* Social Icon Issues Fixed
+* Support for Vine Social Icon Removed
+* Support for Pinterest Social Icon Added
+* Slabo Font Issue Fixed
+* Minor Bug Fixes
