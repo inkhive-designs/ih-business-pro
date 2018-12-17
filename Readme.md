@@ -2,11 +2,11 @@
 
 **Contributors:** (inkhive)  
 **Requires at least:** WordPress 4.4  
-**Tested up to:** WordPress 4.9
-**Version:** 1.1.2
+**Tested up to:** WordPress 5.0
+**Version:** 1.1.3
 **License:** GPL v3  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
-**Tags:** custom-background, two-columns, one-column, custom-colors, flexible-header, theme-options, right-sidebar, grid-layout, custom-menu, threaded-comments, translation-ready, featured-images, blog, full-width-template, e-commerce, footer-widgets, entertainment, photography, featured-image-header
+**Tags:** custom-background, two-columns, one-column, custom-colors, flexible-header, theme-options, right-sidebar, grid-layout, custom-menu, threaded-comments, translation-ready, featured-images, blog, full-width-template, e-commerce, footer-widgets, featured-image-header
 
 Creative and Beautiful WordPress Theme with a Large Header
 
@@ -152,4 +152,9 @@ Source: https://www.pexels.com/photo-license/
 
 ### Version 1.1.2
 
-* Guttenberg Ready
+* Gutenberg Ready
+
+### Version 1.1.3
+
+* Full Width Page Template Added
+* Minor Bug Fixes

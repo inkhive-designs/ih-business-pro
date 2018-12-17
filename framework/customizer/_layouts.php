@@ -163,7 +163,7 @@ function ihbp_customize_register_layouts( $wp_customize ) {
             'section' => 'ihbp_custom_footer',
             'settings' => 'ihbp_disbale_fcredit_line',
             'label' => __('Disable', 'ih-business-pro'),
-            'description' => __('Check to disbale the default footer credit line'),
+            'description' => __('Check to disbale the default footer credit line', 'ih-business-pro'),
             'type' => 'checkbox',
         )
     );
